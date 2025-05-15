@@ -1,22 +1,22 @@
 # Introduction to JavaScript and DOM Manipulation
 
-## Objectives
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interactive Page</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <p id="greeting">This is a basic HTML structure.</p>
 
-Write basic JavaScript functions.
-Manipulate the DOM dynamically.
-Respond to user interactions.
+    <button id="myButton">Click Me</button>
 
-## Instructions
-
-- Create a script.js file and link it to a HTML.
-- Structure the document using DOCTYPE, html, head, and body.
-
->[!NOTE]
->  - Write JavaScript that:
->  - Changes text content dynamically.
->  - Modifies CSS styles via JavaScript.
->  - Adds or removes an element when a button is clicked.
-
+    <div id="output"></div>
+</body>
+</html>
 
 # Tasks
 - Create a well-structured HTML5 document.
